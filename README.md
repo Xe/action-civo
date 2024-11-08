@@ -8,7 +8,7 @@ To install the latest version of `civo` and use it in GitHub Actions workflows, 
 
 ```yaml
     - name: Install civo
-      uses: civo/action-civo
+      uses: civo/action-civo@v1.0.1
       with:
         token: ${{ secrets.CIVO_TOKEN }}
 ```
